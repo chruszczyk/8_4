@@ -12,7 +12,7 @@ var triangleBase = prompt('Triangle base:',''),
 
 triangleArea = triangleBase * triangleHeight / 2;
 
-alert('Your triangle area is ' + triangleArea);
+console.log('Your triangle area is ' + triangleArea + '.');
 
 /*
 var a = 20,
