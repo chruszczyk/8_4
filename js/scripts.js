@@ -1,12 +1,12 @@
-var a = 24,
-	b = 23,
+var a = 23,
+	b = 67,
 	value = (a * a) - (2 * a * b) - (b * b);
 
 console.log(value);
 
 if (value > 0) {
 	console.log("Given value is positive.");
-} else if (value = 0) {
+} else if (value == 0) {
 	console.log("Given value is 0.");
 } else {
 	console.log("Given value is negative.");
